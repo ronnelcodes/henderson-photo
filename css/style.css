@@ -1,0 +1,55 @@
+* {
+  font-family: 'Francois One', sans-serif;
+	font-size: 1.75em;
+}
+
+body {
+	font-family: sans-serif;
+	background: linear-gradient(to bottom right, #696969, transparent 90%), url("https://lh3.googleusercontent.com/AOU2Y2Jo8ZocPVW0ZIGDCGPidcv9GpyuJlEbZTE3oRFa5yDT8HnIg0Slx0hAZ-zAurGk8aQUUD1ZuaWsG0ulpEffhJpzxFRmlqxQM0RYezvm7NKsjsrA28UzmlUThUjRsfCC-6EgZ5AXP9jzDkF37PL-Pm-lSAKWGBE7Dc-MX7r_Oe5yoHfIheLfmXnVB7AL5j_yLiIIKPBVHHWeyMEahZWMS9p1SAnPyiDmiBuYDGQqt77BwBptKwn_Q5FabqVJltucP4OnbE5oCOTV32y3V0DEd0oVh2lCK2bSiluw5lLO0EFufR-jIA8GhPN4CTO-7ibYiQf_VoWWbUFJ0wNv3kz2po1Yt1UyHEuTxivgU00EhB_BQl9tNxM6vDTWYv5U5vIk-7qnd1Tf0uNcbfn5SSO7TL4n_l4SRGDTnvE7ivRUxJvKksIoi1mFWPz-I7AZu1N3uju-6mwUuZ9MUg7vDHFgtvgFDzXI7g53jbg-ocKXoou2FTXerLmH4aBKIvx-uFggbX8XYVAmDtnrMuCMDGfWhE-mS7UXeM0XGkceuv7SF2NcOiPIYLsObgKwd1w_asFtrAp5exocs963fXDMTyoj6A2ETRCdu4kvNw-Rs4o5KST0xfGoZA=w1024-h768-no");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	color: #fff;
+	text-align: center
+}
+
+ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
+}
+ul li img {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+/** Start Coding Here **/
+#overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin-top: 10%;
+}
+
+#overlay p {
+  color: white;
+}
